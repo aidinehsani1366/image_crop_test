@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Business Profile Photo Generator</title>
+  <link rel="stylesheet" type="text/css" href="cropper.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Business Profile Photo Generator</h1>
+  <input type="file" id="uploadInput" accept="image/*">
+  <div id="imageContainer">
+    <img id="uploadedImage" alt="Uploaded Image">
+    <canvas id="croppedCanvas"></canvas>
+  </div>
+  <button id="cropButton" disabled>Crop Image</button>
+  <script src="cropper.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
